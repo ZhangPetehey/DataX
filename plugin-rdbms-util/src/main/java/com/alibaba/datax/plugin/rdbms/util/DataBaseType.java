@@ -11,10 +11,18 @@ import java.util.regex.Pattern;
  */
 public enum DataBaseType {
     MySql("mysql", "com.mysql.jdbc.Driver"),
+<<<<<<< HEAD
+=======
+    MySql8("mysql", "com.mysql.cj.jdbc.Driver"),
+>>>>>>> e4ea9f3 (提交说明)
     Tddl("mysql", "com.mysql.jdbc.Driver"),
     DRDS("drds", "com.mysql.jdbc.Driver"),
     Oracle("oracle", "oracle.jdbc.OracleDriver"),
     SQLServer("sqlserver", "com.microsoft.sqlserver.jdbc.SQLServerDriver"),
+<<<<<<< HEAD
+=======
+    SQLServer2000("sqlserver", "com.microsoft.jdbc.sqlserver.SQLServerDriver"),
+>>>>>>> e4ea9f3 (提交说明)
     PostgreSQL("postgresql", "org.postgresql.Driver"),
     RDBMS("rdbms", "com.alibaba.datax.plugin.rdbms.util.DataBaseType"),
     DB2("db2", "com.ibm.db2.jcc.DB2Driver"),
@@ -44,6 +52,17 @@ public enum DataBaseType {
         String suffix = null;
         switch (this) {
             case MySql:
+<<<<<<< HEAD
+=======
+            case MySql8:
+                suffix = "yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&tinyInt1isBit=false&serverTimezone=UTC";
+                if (jdbc.contains("?")) {
+                    result = jdbc + "&" + suffix;
+                } else {
+                    result = jdbc + "?" + suffix;
+                }
+                break;
+>>>>>>> e4ea9f3 (提交说明)
             case DRDS:
             case OceanBase:
                 suffix = "yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true";
@@ -57,6 +76,11 @@ public enum DataBaseType {
                 break;
             case SQLServer:
                 break;
+<<<<<<< HEAD
+=======
+            case SQLServer2000:
+                break;
+>>>>>>> e4ea9f3 (提交说明)
             case DB2:
                 break;
             case PostgreSQL:
@@ -90,6 +114,17 @@ public enum DataBaseType {
                     result = jdbc + "?" + suffix;
                 }
                 break;
+<<<<<<< HEAD
+=======
+            case MySql8:
+                suffix = "yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&tinyInt1isBit=false&serverTimezone=UTC";
+                if (jdbc.contains("?")) {
+                    result = jdbc + "&" + suffix;
+                } else {
+                    result = jdbc + "?" + suffix;
+                }
+                break;
+>>>>>>> e4ea9f3 (提交说明)
             case ADB:
                 suffix = "yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&tinyInt1isBit=false";
                 if (jdbc.contains("?")) {
@@ -110,6 +145,11 @@ public enum DataBaseType {
                 break;
             case SQLServer:
                 break;
+<<<<<<< HEAD
+=======
+            case SQLServer2000:
+                break;
+>>>>>>> e4ea9f3 (提交说明)
             case DB2:
                 break;
             case PostgreSQL:

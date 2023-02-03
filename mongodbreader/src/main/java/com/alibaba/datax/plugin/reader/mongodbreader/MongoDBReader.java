@@ -174,7 +174,12 @@ public class MongoDBReader extends Reader {
                                 record.addColumn(new StringColumn(tempArrayStr));
                             }
                         } else {
+<<<<<<< HEAD
                             record.addColumn(new StringColumn(tempCol.toString()));
+=======
+                            // zhangzf 2022-11-07 读取数据新增回车换行处理
+                            record.addColumn(new StringColumn(tempCol.toString().replaceAll("\n"," ")));
+>>>>>>> e4ea9f3 (提交说明)
                         }
                     }
                 }

@@ -33,6 +33,16 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
         <fileSet>
+<<<<<<< HEAD
+=======
+            <directory>mysql8reader/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+>>>>>>> e4ea9f3 (提交说明)
             <directory>oceanbasev10reader/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
@@ -61,6 +71,16 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
         <fileSet>
+<<<<<<< HEAD
+=======
+            <directory>sqlserver2000reader/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+>>>>>>> e4ea9f3 (提交说明)
             <directory>postgresqlreader/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>
@@ -239,6 +259,16 @@
             <outputDirectory>datax</outputDirectory>
         </fileSet>
         <fileSet>
+<<<<<<< HEAD
+=======
+            <directory>mysql8writer/target/datax/</directory>
+            <includes>
+                <include>**/*.*</include>
+            </includes>
+            <outputDirectory>datax</outputDirectory>
+        </fileSet>
+        <fileSet>
+>>>>>>> e4ea9f3 (提交说明)
             <directory>tdenginewriter/target/datax/</directory>
             <includes>
                 <include>**/*.*</include>

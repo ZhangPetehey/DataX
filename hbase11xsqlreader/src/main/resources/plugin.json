@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "hbase11xsqlreader",
     "class": "com.alibaba.datax.plugin.reader.hbase11xsqlreader.HbaseSQLReader",
@@ -5,3 +6,12 @@
     "developer": "alibaba"
 }
 
+=======
+{
+    "name": "hbase11xsqlreader",
+    "class": "com.alibaba.datax.plugin.reader.hbase11xsqlreader.HbaseSQLReader",
+    "description": "useScene: prod. mechanism: Scan to read data.",
+    "developer": "alibaba"
+}
+
+>>>>>>> e4ea9f3 (提交说明)

@@ -48,8 +48,15 @@
 
         <!-- reader -->
         <module>mysqlreader</module>
+<<<<<<< HEAD
         <module>drdsreader</module>
         <module>sqlserverreader</module>
+=======
+        <module>mysql8reader</module>
+        <module>drdsreader</module>
+        <module>sqlserverreader</module>
+        <module>sqlserver2000reader</module>
+>>>>>>> e4ea9f3 (提交说明)
         <module>postgresqlreader</module>
         <module>kingbaseesreader</module>
         <module>oraclereader</module>
@@ -82,6 +89,10 @@
 
         <!-- writer -->
         <module>mysqlwriter</module>
+<<<<<<< HEAD
+=======
+        <module>mysql8writer</module>
+>>>>>>> e4ea9f3 (提交说明)
         <module>starrockswriter</module>
         <module>drdswriter</module>
         <module>oraclewriter</module>

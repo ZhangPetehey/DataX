@@ -1,0 +1,6 @@
+{
+    "name": "sqlserver2000reader",
+    "class": "com.alibaba.datax.plugin.reader.sqlserverreader.SqlServer2000Reader",
+    "description": "useScene: test. mechanism: use datax framework to transport data from SQL Server. warn: The more you know about the data, the less problems you encounter.",
+}
+
