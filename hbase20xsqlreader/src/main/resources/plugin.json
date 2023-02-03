@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "hbase20xsqlreader",
     "class": "com.alibaba.datax.plugin.reader.hbase20xsqlreader.HBase20xSQLReader",
@@ -5,3 +6,12 @@
     "developer": "alibaba"
 }
 
+=======
+{
+    "name": "hbase20xsqlreader",
+    "class": "com.alibaba.datax.plugin.reader.hbase20xsqlreader.HBase20xSQLReader",
+    "description": "useScene: prod. mechanism: read data from phoenix through queryserver.",
+    "developer": "alibaba"
+}
+
+>>>>>>> e4ea9f3 (提交说明)
