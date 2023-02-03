@@ -1,4 +1,4 @@
-# DataX MysqlWriter
+# DataX Mysql8Writer
 
 
 ---
